@@ -1,0 +1,9 @@
+custom_firebase.form:  
+  path: '/customfirebase/settings'  
+  defaults:  
+    _form: '\Drupal\custom_firebase\Form\CustomfirebaseForm'  
+    _title: 'Firebase form'  
+  requirements:  
+    _permission: 'access content'  
+  options:  
+    _admin_route: TRUE  

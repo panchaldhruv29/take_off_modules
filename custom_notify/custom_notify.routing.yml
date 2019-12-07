@@ -1,0 +1,7 @@
+custom_notify_form:
+  path: 'push-notify'
+  defaults:
+    _form: 'Drupal\custom_notify\Form\CustomNotifyForm'
+    _title: 'Push Notify'
+  requirements:
+    _permission: 'access content'

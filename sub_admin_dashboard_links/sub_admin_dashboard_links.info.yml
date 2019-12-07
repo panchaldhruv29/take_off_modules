@@ -1,0 +1,4 @@
+name: Sub Admin dashboard Links
+type: module
+description: Custom module which allow to create dashboards link in sub admin role.
+core: 8.x

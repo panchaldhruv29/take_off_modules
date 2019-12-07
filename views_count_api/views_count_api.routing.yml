@@ -1,0 +1,7 @@
+views_count_api.views_count_api:
+  path: '/views_count/{sort}/{limit}'
+  defaults:
+    _controller: '\Drupal\views_count_api\Controller\ViewsCountApiController::views_count_api'
+    _title: 'Views Count page'
+  requirements:
+    _permission: 'access content'

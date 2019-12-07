@@ -1,0 +1,4 @@
+name: Views Count API
+type: module
+description: Custom module which help to count number of views of packages
+core: 8.x

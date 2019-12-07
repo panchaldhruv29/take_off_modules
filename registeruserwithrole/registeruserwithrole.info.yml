@@ -1,0 +1,4 @@
+name: Register a user with role
+type: module
+description: Custom module to allow anonymous user to register as a Customer by selecting field_user_role
+core: 8.3.x

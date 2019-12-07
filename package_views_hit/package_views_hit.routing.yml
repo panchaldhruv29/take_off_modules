@@ -1,0 +1,7 @@
+package_views_hit.package_views_hit:
+  path: '/package-views-hit/{nid}/{package_name}'
+  defaults:
+    _controller: '\Drupal\package_views_hit\Controller\PackageViewsHitController::package_views_hit_api'
+    _title: 'Package Views Hit page'
+  requirements:
+    _permission: 'access content'

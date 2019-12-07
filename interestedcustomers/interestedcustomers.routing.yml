@@ -1,0 +1,4 @@
+interestedcustomers.content:
+  path: '/node/{node}/interested-customers'
+  requirements:
+    _permission: 'access content'

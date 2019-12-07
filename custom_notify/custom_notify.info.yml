@@ -1,0 +1,4 @@
+name: Custom Notify Functionality
+description: This module is develop to create custom push notification
+type: module
+core: '8.x'

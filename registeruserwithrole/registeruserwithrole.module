@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * To add user role after registration.
+ */
+
+/**
+ * Implements hook_ENTITY_TYPE_insert().
+ */
+function registeruserwithrole_user_insert($entity) {
+  $user_roles = $entity->get('field_user_role')->getValue();
+  if (!empty($user_roles)) {
+    foreach ($user_roles as $role) {
+      $entity->addRole($role);
+      $entity->save();
+    }
+  }
+}

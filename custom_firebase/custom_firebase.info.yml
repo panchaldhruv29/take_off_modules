@@ -1,0 +1,6 @@
+name: Custom firebase API
+type: module
+description: Custom module to implement firebase push notification.
+core: 8.x
+package: Custom  
+

@@ -1,0 +1,4 @@
+name: Modify Rest Export
+type: module
+description: Added & Display Pagination in Response
+core: 1.0.0

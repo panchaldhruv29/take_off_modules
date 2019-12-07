@@ -1,0 +1,4 @@
+name: Package Views Hit
+type: module
+description: Custom module which help to fetch hit from iphone apps.
+core: 8.x

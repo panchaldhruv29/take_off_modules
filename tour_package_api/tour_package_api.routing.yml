@@ -1,0 +1,7 @@
+tour_package_api.tour_package_api:
+  path: '/tour-packages/{sort}/{limit}'
+  defaults:
+    _controller: '\Drupal\tour_package_api\Controller\TourPackageApiController::tour_package_api'
+    _title: 'Api page'
+  requirements:
+    _permission: 'access content'
